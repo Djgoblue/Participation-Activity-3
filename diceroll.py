@@ -14,3 +14,8 @@ d6 = Die()
 for _ in range(10):
     print(d6.roll())
 
+# 10-sided die
+print("\nRolling 10-sided die:")
+d10 = Die()
+for _ in range(10):
+    print(d10.roll())
