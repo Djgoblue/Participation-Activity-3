@@ -19,3 +19,9 @@ print("\nRolling 10-sided die:")
 d10 = Die()
 for _ in range(10):
     print(d10.roll())
+
+# 20-sided die
+print("\nRolling 20-sided die:")
+d20 = Die(sides=20)
+for _ in range(10):
+    print(d20.roll())
