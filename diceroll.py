@@ -8,8 +8,9 @@ class Die:
     def roll(self):
         return r.randint(1, self.sides)
     
-# 6 sided die
-print ("6 sided die rolls:")
+# 6-sided die
+print("Rolling 6-sided die:")
 d6 = Die()
-for i in range(10):
-    d6.roll()
+for _ in range(10):
+    print(d6.roll())
+
